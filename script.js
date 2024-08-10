@@ -59,4 +59,5 @@ console.log(extraElement.getAttribute('class'));
 extraElement.classList.remove('list_item');
 newElement.remove();
 extraElement.remove();
+li.remove();
 
