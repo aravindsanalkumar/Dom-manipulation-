@@ -56,5 +56,7 @@ ul.append(extraElement);
 extraElement.textContent = 'I N T E R S T E L L A R ';
 extraElement.classList.add('list_item')
 console.log(extraElement.getAttribute('class'));
-extraElement.classList.remove('list_item')
+extraElement.classList.remove('list_item');
+newElement.remove();
+extraElement.remove();
 
